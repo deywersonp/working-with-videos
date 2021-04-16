@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avançado</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>FINAL FANTASY XIV</h1>
+            <h2>The Latest Expansion - <em>Comming soon</em></h2>
+        </div>
+        <video onmouseover="displayControl()" onmouseout="hideControl()" class="video" id="video1"
+            src="./assets/video/FINAL FANTASY XIV_ ENDWALKER Teaser Trailer.mp4"
+            poster="./assets/images/endwalker.png"></video>
+
+        <div id="control">
+            <img class="button" onclick="backTime()" src="./assets/icons/replay.png">
+            <img class="button" onclick="forwardTime()" src="./assets/icons/forward.png">
+            <img class="button" onclick="addRate()" src="./assets/icons/plusrate.png">
+            <img class="button" onclick="slowRate()" src="./assets/icons/slowrate.png">
+            <img class="button" onclick="play()" src="./assets/icons/play.png">
+            <img class="button" onclick="pause()" src="./assets/icons/pause.png">
+            <img class="button" onclick="stop()" src="./assets/icons/stop.png">
+        </div>
+
+        <footer>
+            <p>Coded by: <a href="https://github.com/deywersonp">Deywerson Pereira</a></p>
+        </footer>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
